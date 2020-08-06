@@ -40,5 +40,7 @@ def sum_array(array)
 end  
 
 def add_s(array)
+  array. each do |x|
+    array.collection {
   array.collect {|x| x + "s"}
 end 
