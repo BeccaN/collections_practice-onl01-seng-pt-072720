@@ -19,5 +19,5 @@ end
 # end 
 
 def reverse_array(nums)
-  nums.collect{
+  nums.reverse
 end   
