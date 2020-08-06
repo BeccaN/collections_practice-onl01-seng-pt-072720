@@ -23,6 +23,6 @@ def reverse_array(nums)
 end   
 
 def kesha_maker(strings)
-  
+  strings.each 
   strings.collect{|a| a
 end 
