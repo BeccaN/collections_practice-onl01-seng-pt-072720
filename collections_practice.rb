@@ -41,5 +41,5 @@ end
 
 def add_s(array)
   array. each do |x|
-    array.collection {|x| x + "s"}
+    array.collect {|x| x + "s"}
 end 
