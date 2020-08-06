@@ -31,4 +31,4 @@ def kesha_maker(strings)
   new_collection
 end 
 
-kesha_maker()
+kesha_maker(["blake", "ashley", "scott"])
