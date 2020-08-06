@@ -19,5 +19,5 @@ end
 # end 
 
 def reverse_array(nums)
-  nums.sort{|a, b| b <=> a}
+  nums.collect{
 end   
