@@ -40,8 +40,8 @@ def sum_array(array)
 end  
 
 def add_s(array)
-  array.collect{|x| x + 2}
-  puts array 
+  new = array.collect{|x| x + 2}
+  puts new
 end 
 
 array = [1, 2, 3]
