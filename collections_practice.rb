@@ -6,6 +6,6 @@ def sort_array_desc(nums)
   nums.sort{|a, b| b <=> a}
 end   
 
-def ssort_array_char_countort_array_char_count(strings)
+def sort_array_char_count(strings)
   strings.sort(|a, b| a.length <=> b.length)
 end 
