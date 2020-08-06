@@ -41,4 +41,12 @@ end
 
 def add_s(array)
   array.collect do |word|
+    s_list
+    if word.index(1)
+      s_list.append(word)
+    else
+      s_list.append(word + 's')
+    end
+  end
+  s_list
 end 
