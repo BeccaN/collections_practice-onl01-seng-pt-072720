@@ -23,11 +23,9 @@ def reverse_array(nums)
 end   
 
 def kesha_maker(strings)
-  i = 0 
   new_collection = []
   strings.each do |string|
-    puts string[i]
-    i += 1 
+    puts string[2]
   end 
   new_collection
 end 
