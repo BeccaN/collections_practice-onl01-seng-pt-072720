@@ -40,7 +40,7 @@ def sum_array(array)
 end  
 
 def add_s(array)
-  new = array.collect{|x| x + 2}
+  new = array.each_with_index.collect{|x| x + 2}
   puts new
 end 
 
