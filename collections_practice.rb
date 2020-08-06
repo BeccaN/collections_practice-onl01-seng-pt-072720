@@ -32,5 +32,6 @@ def kesha_maker(strings)
 end 
 
 def find_a()
-  
+  #returns all strings in an array that start with the letter 'a'
+  #.find 
 end 
