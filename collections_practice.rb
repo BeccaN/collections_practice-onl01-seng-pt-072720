@@ -26,7 +26,7 @@ def kesha_maker(strings)
   new_collection = []
   strings.each do |string|
     string[2] = '$'
-    new_collectionstring
+    new_collection.append(string)
   end 
   new_collection
 end 
