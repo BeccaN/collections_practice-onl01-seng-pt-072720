@@ -26,7 +26,8 @@ def kesha_maker(strings)
   i = 0 
   new_collection = []
   strings.each do |string|
-    puts string[i][2] 
+    puts string[i]
+    i += 1 
   end 
   new_collection
 end 
