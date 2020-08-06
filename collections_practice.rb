@@ -31,7 +31,8 @@ def kesha_maker(strings)
   new_collection
 end 
 
-def find_a()
+def find_a(array)
   #returns all strings in an array that start with the letter 'a'
-  #.find 
+  #.select elements which string[0] == 'a'
+  array.select{
 end 
