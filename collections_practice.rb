@@ -41,7 +41,7 @@ end
 
 def add_s(array)
   array.collect{|x| x + "s"}
-  array
+  puts array
 end 
 
 array = ["head", "feet", "toe"]
