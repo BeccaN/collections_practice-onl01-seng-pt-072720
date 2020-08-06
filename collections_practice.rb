@@ -40,9 +40,9 @@ def sum_array(array)
 end  
 
 def add_s(array)
-  array.collect{|x| x + "s"}
+  array.collect{|x| x + 2}
   
 end 
 
-array = ["head", "feet", "toe"]
+array = [1, 2, 3]
 add_s(array)
