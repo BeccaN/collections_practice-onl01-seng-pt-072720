@@ -44,3 +44,4 @@ def add_s(array)
 end 
 
 array = ["head", "feet", "toe"]
+add_s(array)
