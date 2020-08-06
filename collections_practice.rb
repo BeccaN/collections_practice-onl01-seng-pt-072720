@@ -22,6 +22,6 @@ def reverse_array(nums)
   nums.reverse
 end   
 
-def kesha_maker()
-  
+def kesha_maker(strings)
+  strings.collect{|a| a[]
 end 
