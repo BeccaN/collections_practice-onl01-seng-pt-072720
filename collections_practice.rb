@@ -30,3 +30,5 @@ def kesha_maker(strings)
   end 
   new_collection
 end 
+
+kesha_maker()
