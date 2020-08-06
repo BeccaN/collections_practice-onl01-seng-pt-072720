@@ -41,7 +41,7 @@ end
 
 def add_s(array)
   array.collect{|x| x + 2}
-  array 
+  puts array 
 end 
 
 array = [1, 2, 3]
