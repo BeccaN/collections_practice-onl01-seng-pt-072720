@@ -32,7 +32,9 @@ def kesha_maker(strings)
 end 
 
 def find_a(array)
-  #returns all strings in an array that start with the letter 'a'
-  #.select elements which string[0] == 'a'
   array.select{|string| string[0] == 'a'}
 end 
+
+def sum_array(array)
+  
+end   
