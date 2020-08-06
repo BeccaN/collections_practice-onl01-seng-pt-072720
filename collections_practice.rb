@@ -17,3 +17,7 @@ end
 # def swap_elements_from_to(eles, index, destination_index)
 #   eles.sort{|a, b| a[index] <=> b[destination_index]}
 # end 
+
+def reverse_array(nums)
+  nums.sort
+end   
