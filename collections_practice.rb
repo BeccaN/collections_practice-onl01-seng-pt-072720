@@ -23,6 +23,10 @@ def reverse_array(nums)
 end   
 
 def kesha_maker(strings)
-  strings.each 
-  strings.collect{|a| a
+  i = 0 
+  strings.each do |string|
+    string = string[i][2] = '$'
+    strings.collect(string)
+    i += 1 
+  end 
 end 
